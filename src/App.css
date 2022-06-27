@@ -4,7 +4,7 @@
 }
 
 body{
-  background-color: oldlace;
+  background-color: rgb(161, 135, 87);
   font-family: 'lato';
 }
 
@@ -15,3 +15,4 @@ body{
   align-items: center;
   height: 800px;
 }
+

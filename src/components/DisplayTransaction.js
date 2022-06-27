@@ -4,14 +4,14 @@ function DisplayTransaction(props) {
     console.log(props.list)
     return (
        
-        <div>
+        <div className="hello">
             {props.list.map((item) => (
                 <div>
 
                     {
                         item.transactionType === "Income" ? (
                             <>
-                                    <h2>Icome</h2>
+                                    
                                       
                                <div className="transaction-list">
                                     <div><h4>R{item.amount}.00</h4></div>
@@ -23,7 +23,7 @@ function DisplayTransaction(props) {
                         ) : (
                             <>
 
-                                     <h2>Expense</h2>
+                                     
 
                                 <div className="Expense-list">
                                     <div><h4>-R{item.amount}.00</h4></div>
