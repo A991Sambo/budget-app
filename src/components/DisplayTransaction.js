@@ -5,6 +5,7 @@ function DisplayTransaction(props) {
     return (
        
         <div className="hello">
+            <h1>Transaction History</h1>
             {props.list.map((item) => (
                 <div>
 
